@@ -94,7 +94,7 @@ function deleteStorageValue(storage_type, key) {
 //////////////////////////////////////////////////////////////////
 
 // Function to save to local storage (expriration is optional)
-function saveStorage(key, content, exp) {
+function saveLocalStorage(key, content, exp) {
 	if(exp !== undefined && exp !== null) {
 		saveToStorage(LOCAL_STORAGE, key, content, exp);		
 	} else {
