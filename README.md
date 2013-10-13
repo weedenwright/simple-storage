@@ -1,14 +1,17 @@
 <h1>simple-storage</h1>
-==============
 
-This simple JavaScript library makes using Local and Session storage easier. 
+<p>This simple JavaScript library makes using Local and Session storage easier.</p>
 
-It has no dependencies and is only 2kb minified.
+<p>It has no dependencies and is only 2kb minified.</p>
 
-More to come.
-
-<h2>Testing</h2>
+<h2>Available Functions</h2>
 <ul>
-	<li>Test 1</li>
-	<li>Test 2</li>
+	<li><strong>saveStorage -</strong> saves to the local storage.
+		<br>Parameters
+		<ul>
+			<li><strong>key: </strong> the unique key to find local content</li>
+			<li><strong>content: </strong> the content to save locally</li>
+			<li><strong>exp: (OPTIONAL)</strong> if set, the seconds until the storage should expire</li>
+		</ul>
+	</li>
 </ul>
