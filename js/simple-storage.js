@@ -8,6 +8,7 @@
 	Simple Storage
 	Definition 	- Uses plain Jane JavaScript to store values to local storage. 
 				- Web storage is supported in Internet Explorer 8+, Firefox, Opera, Chrome, and Safari.
+	GitHub: https://github.com/weedenwright/simple-storage
 */
 
 //////////////////////////////////////////////////////////////////
