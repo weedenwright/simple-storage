@@ -1,9 +1,9 @@
 <h1>simple-storage</h1>
 
-<p>This simple JavaScript library makes using Local and Session storage easier.</p>
+<p>This simple JavaScript library makes using Local and Session storage easier. In addition, while local storage has no expiration, this package has functions that allow you to set
+	an expiration.</p>
 
-<p>It has no dependencies and is only 2kb minified. Local storage has no expiration, but this package has functions that allow you to set
-	an expiration. <a href="http://www.html5rocks.com/en/features/storage" target="_blank">Web storage is supported in Internet Explorer 8+, 
+<p>It has no dependencies and is only 2kb minified. <a href="http://www.html5rocks.com/en/features/storage" target="_blank">Web storage is supported in Internet Explorer 8+, 
 		Firefox, Opera, Chrome, and Safari.</a></p>
 
 <h2>Available Functions</h2>
