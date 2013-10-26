@@ -49,10 +49,10 @@ function getStorage(storage_type, key) {
 		return stored_value = sessionStorage.getItem(key);
 	} else {
 		stored_value = localStorage.getItem(key);
-		if(stored_value !== "") {
+		if(stored_value !== null && stored_value !== undefined && stored_value !== "") {
 			parsed_value = JSON.parse(stored_value);
 			// check if stored value has an expiration
-			if(parsed_value.timestamp !== undefined && parsed_value.timestamp !== null) {
+			if(parsed_value !== null && parsed_value !== undefined && parsed_value.timestamp !== undefined && parsed_value.timestamp !== null) {
 				if(!parsed_value.ttl) {
 					// ttl is false - no expiration
 					return parsed_value.content;
